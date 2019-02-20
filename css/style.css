@@ -1,0 +1,312 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Belleza', sans-serif;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/back.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.main-nav{
+    float:right;
+    list-style:none;
+    margin-top:50px;
+}
+
+.main-nav li{
+    display:inline-block;
+}
+
+.main-nav li a{
+    color:white;
+    text-decoration:none;
+    padding:5px 20px;
+    font-size:15px;
+}
+
+.main-nav li.active a{
+    border:1px white solid;
+}
+
+.main-nav li a:hover{
+    border:1px white solid;
+    background-color:#2e4263;
+    transition: all 0.5s ease-in;
+}
+
+.logo img{
+    width:100px;
+    height:auto;
+    float:left;
+    margin:10px 20px;
+}
+
+.row{
+    max-width:1400px;
+    margin:auto;
+}
+
+.hero{
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    clear:both;
+    padding-top:150px;
+}
+
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-size:70px;
+    text-align:center;
+    margin-top:275px;
+}
+
+.button{
+    margin-top:30px;
+    margin-left: 440px;
+}
+
+.btn{
+    border:1px white solid;
+    padding:10px 30px;
+    color:white;
+    text-decoration:none;
+    font-size: 14px;
+
+}
+
+.btn-one{
+    background-color:#2e4263;
+}
+
+
+.btn-two:hover{
+    background-color:#2e4263;
+    transition: all 0.5s ease-in;
+}
+
+/*About page*/
+
+
+h2{
+    clear:both;
+    text-align:center;
+    font-size:70px;
+    color:white;
+
+}
+
+.main-area{
+    height:70vh;
+    width:100%;
+}
+
+.aside-left{
+    width:20%;
+    height:70vh;
+    margin-right:5%;
+    float:left;
+    background-color:rgba(46, 66, 99, .7);
+}
+
+iframe{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30%;
+}
+
+.main-article{
+    width:50%;  
+    height:70vh;
+    float:left;
+    background-color:rgba(46, 66, 99, .7);
+    margin-left:0;
+    overflow:auto;
+}
+
+.about-info{
+    color:white;
+    padding:20px;
+    font-size:18px;
+}
+
+audio{
+    display:block;
+    margin:0 auto;
+}
+
+.aside-right{
+    width:20%;
+    height:70vh;
+    float:left;
+    background-color:rgba(46, 66, 99, .7);
+    margin-right:0px;
+    margin-left:5%;
+}
+
+.aside-info-left{
+    padding:40px 10px 20px 10px;
+    text-align:justify;
+    color:white;
+}
+
+.aside-info-right{
+    padding:20px 10px ;
+    text-align:justify;
+    color:white;
+}
+
+.cat1{
+    position:relative;
+    max-width:300px;
+    max-height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:20px 10px;
+}
+
+.cat1.top{
+    padding-top:60px;
+}
+
+/*contact page*/
+h3{
+  text-align:center;
+  color:white;
+  font-size:16px;
+  margin-bottom:0px;
+}
+
+table, th, td{
+    border:2px solid white;
+    
+}
+
+table{
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:8vh;
+}
+
+thead{
+    font-size:20px;
+}
+
+th, td{
+    padding:10px 20px;
+    color:white;
+}
+
+.map, a{
+    font-weight:1200;
+    color:white;
+    text-align:center;
+}
+
+.map a:hover{
+    color:#8fabd8;
+    text-decoration:none;
+}
+
+.contact-section{
+    margin:60px 20px;
+    text-align:left;
+    color:white;
+}
+
+.cathouse{
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3vh;
+    padding:10px;
+    border:solid 20px white;
+}
+
+h4{
+    color:white;
+    font-size:2rem;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:50px;
+}
+
+.form1{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15%;
+    padding:10px;
+}
+span{
+    display:inline;
+    font-size:18px;
+    margin-left:auto;
+    color:white;
+}
+span input{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 8px;
+    margin-bottom:10px;
+}
+
+/*footer*/
+.footer{
+    clear:both;
+    background-image:linear-gradient(rgba(46, 66, 99, .7) 30%, black);
+}
+
+.foot-1{
+    float:left;
+    /*margin:5px 30% 0px 5%;*/
+    width:20%;
+    text-align:center;
+    color:white;
+    margin-right:5%;
+    margin-top: 10px;
+    margin-bottom:2px;
+}
+.foot-2{
+    float:left;
+    /*margin:10px 30% 0px 0px;*/
+    width:50%;
+    color:white;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:2px;
+}
+
+.foot-2 a{
+    color:white;
+    border:1px white solid;
+    padding:5px;
+    text-decoration:none;
+    
+}
+.foot-3{
+    float:left;
+    /*margin:5px  0px 0px 8%;*/
+     width:20%;
+    color:white;
+    text-align:center;
+    margin-left:5%;
+    margin-right:0px;
+    margin-top: 10px;
+    margin-bottom:2px;
+}
+
+.fab{
+    color:#ff0000;
+}
